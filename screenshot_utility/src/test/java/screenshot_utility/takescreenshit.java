@@ -34,9 +34,7 @@ public class takescreenshit {
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	        
 	     driver.navigate().to("https://demo.automationtesting.in/Alerts.html");
-	     
-//	      WebDriverWait wait = new WebDriverWait(driver,30);
-//		  wait.until(ExpectedConditions.alertIsPresent();
+	    
 	     
 	     
 	     //take a screenshot
