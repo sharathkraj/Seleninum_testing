@@ -51,14 +51,8 @@ public class takescreenshit {
 	     Rectangle rectangle= new Rectangle(screenSize);
 	     BufferedImage source=robot.createScreenCapture(rectangle);
 	     File destinationsFile=new File("D:\\SS234234532.png");
-	     ImageIO.write(source, "png", destinationsFile);
-//	     
+	     ImageIO.write(source, "png", destinationsFile);     
 	     
-	     
-	     
-	   
-		
-
 	}
 
 }
